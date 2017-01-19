@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+================================================================================
+General homepage template.
+Author:       Josh Shindler , Craig Anderson , Drummond Pearson
+Created:      10th November 2008 
+Amended: 	  7th October 2009
+================================================================================
+*/
+
+/*
+--------------------------------------------------------------------------------
+								  Reset css
+--------------------------------------------------------------------------------
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}
+
+/*
+--------------------------------------------------------------------------------
+                                All pages styles
+--------------------------------------------------------------------------------
+*/
+
+body {font-family: Verdana, Arial, Helvetica, sans-serif;position:relative; line-height:150%;}
+.bold, strong{font-weight:bold;} 
+a         {color: #0066CC; text-decoration: underline;}
+a:hover   {color: #cc0000; text-decoration: underline;}
+a:visited, a:focus, a:active  {color:#660000; text-decoration:underline;}
+h1 {font-size:2.8em;font-style: normal;line-height:normal;font-family: 'BlissRegularRegular', Verdana, Arial, Helvetica, sans-serif; font-size-adjust: 0.47; }
+h2 { font-size:1.7em; font-style: normal; line-height:normal;}
+h3 {font-size:1.4em; line-height:normal;  }
+h4 {font-size:1.1em; font-family: 'BlissRegularRegular', Verdana, Arial, Helvetica, sans-serif; font-style: normal; line-height:normal; }
+.hide{display:none;}
+h2 a, h2 a:visited{color:#000000; text-decoration:none;}h2 a:hover, h2 a:focus, h2 a:active{color:#000000;text-decoration:underline}
+a.black-link {color:#000; text-decoration:none;}
+a.black-link:hover, a.black-link:focus, a.black-link:active  {text-decoration:underline;}
+
+
+/*Header*/
+#hdr { background-color: #fff; width: 100%; clear:both; padding:0 0 0 0!important; margin:6px 0 6px 0!important; display:inline-block; }
+#hdr ul.hidden {position:absolute; left:-999em; visibility:hidden; }
+#hdr-logo-holder {float: left;padding: 13px 0 0 20px; }
+#hdr #hdr-logo-holder img {border:none;}
+#hdr-logo-holder a, #hdr-logo-holder a:hover{border:none;}
+#hdr-date-display {float:right;  padding-right: 20px;}
+#hdr-personalisation {padding: 0 20px 3px 0!important; margin:0 0 0 0!important; text-align: right; font-size:0.9em!important;}
+#hdr-searchform-holder { padding: 6px 0 6px 10px; float:right!important; margin:0 20px 0 0; display:inline-block;width:33.1%; }
+#hdr-searchform-holder form {margin:0; }
+#hdr-searchform-holder fieldset {border: none; padding:0; margin:0 0 0 0; float:right; }
+#hdr-searchform-holder fieldset legend { display:none;  padding:0 0 0 0!important; margin:0 0 0 0!important;}
+#hdr-searchform-holder label { display:none; padding:0; margin:0;} 
+#hdr-searchform-holder #search_text, #hdr-searchform-holder .search_text {border: 1px solid #999; background-image: url(http://dev.nationalarchives.web.local/images/global/sitesearch-bg.gif); padding:3px 4px 4px 4px; margin:0 0 0 0 ; height:16px;  color:#333; width: 19.2%; font-family:Verdana, Geneva, sans-serif; }
+html>body #hdr-searchform-holder #search_text {*margin:-1px 0 0 0}
+#hdr-searchform-holder #search_button{margin:0 0 0 0;}
+#hdr-searchform-holder #hdr-advanced-search {float:right; padding:3px 0 0 0; clear:both; font-size:0.9em;}
+#hdr a { color: #0066cc; font-weight:normal;}
+#hdr a:hover, #hdr a:focus, #hdr a:active {color: #cc0000; text-decoration: underline; font-weight:normal;}
+#site-title {line-height:100%;}
+/*Menu*/
+#main-navigation {width:100%; background:#d9d9d9 url(http://dev.nationalarchives.web.local/images/global/main-menu-bg.gif) bottom repeat-x;list-style:none; }
+#main-navigation .accesskeys ul li a{position:absolute; left: -999px;}
+#main-navigation .accesskeys ul li a:focus, #main-navigation .accesskeys ul li a:active {position:absolute; left:14px; background:#FFC; z-index:100; padding:6px 10px; width:20.8%;}
+#main-navigation div.accesskeys ul li {display: inline; list-style: none;}
+#main-menu-wrapper {min-height: 2.5em; width:66%; margin:0 auto; background:#d9d9d9 url(http://dev.nationalarchives.web.local/images/global/main-menu-bg.gif) bottom repeat-x;}
+#main-menu {line-height:1.7em; background:#e5e5e5; margin:0; padding:0; text-align:left;}
+#main-menu ul, #main-menu li {list-style:none; margin:0; padding:0;}
+#main-menu a {display:block; color:#000; text-decoration:none; padding:5px 20px 5px 20px;}
+#main-menu li {float:left; border-right:1px solid #a2a2a2; border-left:1px solid #fafafa;}
+#main-menu li ul {position:absolute; left:-999em; width:16em; font-weight:normal; background:#e7e7e7 url(http://dev.nationalarchives.web.local/images/global/main-menu-child-bg.jpg) repeat-x bottom; border-top:#c41d28 4px solid; z-index:1000;}
+#main-menu li li {padding:0; width: 15.9em; border:solid #a2a2a2; border-width:0 1px 1px 1px;}
+#main-menu li ul a {padding:2px 8px 2px 8px; font-weight:normal; width:90%;}
+#main-menu li ul ul {margin:-1.75em 0 0 14em; border-top:1px solid #a2a2a2;}
+#main-menu li:hover ul ul, #main-menu li:hover ul ul ul {left:-999em;}
+#main-menu li:hover ul, #main-menu li li:hover ul, #main-menu li li li:hover ul {left:auto;}
+#main-menu li:hover {background:#c41d28;}
+#main-menu li#first-left { border-left:none !important;}
+#main-menu li#last-right { border-right:none !important;}
+#main-menu a:focus, #main-menu a:hover {color:#fff;}
+#main-menu a:active {color:#fff;}
+#main-menu li:hover a.parent-link {color:#fff;}
+#main-menu li li:hover a.child-link {color:#fff;}
+#main-menu a.current {background-color: #c41d28; color: #fff;}
+/* JavaScript controlled menu, for IE6 and keyboard navigation (by tab key) */
+#main-menu li.js-show a.parent-link {color:#fff;}
+#main-menu li li.js-show a.child-link {color:#fff;}
+#main-menu li.js-show ul {left:auto;}
+#main-menu li.js-show li ul {left:-999em;}
+#main-menu li li.js-show ul {left:auto;}
+#main-menu li.js-show {background:#c41d28;}
+
+
+/*Sub menu - second bar of double horizontal navigation*/
+
+/*#main-navigation {border:none;} THIS NEEDS UNCOMMENTED WHEN ALL SECTIONS OF THE WEBSITE GO LIVE IN DEC 09*/
+#main-menu-wrapper #main-menu .selected{border:none; background:#716B6B url(http://dev.nationalarchives.web.local/images/global/sub-menu-bg.gif); color:#FFFFFF; font-weight:bold;}
+#sub-menu-wrapper {width:100%; padding:6px 0 6px 0;  background:#716B6B url(http://dev.nationalarchives.web.local/images/global/sub-menu-bg.gif) repeat-x; float:left; }
+#sub-menu-wrapper #sub-menu{margin:0 auto  0 auto; width:57.9%; }
+#sub-menu-wrapper #sub-menu li{ float:left; padding:0 19px 0 19px; color:#FFFFFF; border-right:#fff solid 1px; }
+#sub-menu-wrapper #sub-menu li a{color:#FFF; text-decoration:none;}
+#sub-menu-wrapper #sub-menu li a:hover, #sub-menu-wrapper #sub-menu li a:focus, #sub-menu-wrapper #sub-menu li a:active {color:#FFF; text-decoration:underline;}
+#sub-menu-wrapper #sub-menu li a.selected {color:#FFF; font-weight:bold;}
+#sub-menu-wrapper #sub-menu .no-border{border:none;}
+
+
+/*Footer*/
+* html #ftr {height: 1px;}
+#ftr { background:#fff; border-top: 4px solid #D9D9D9; border-bottom: 2px solid #D9D9D9; clear:both; font-size:0.9em; margin: 0; text-align: center; }
+#ftr a {padding: 0 10px 0 0; text-decoration: none; color: #000000;}
+#ftr a:hover, #ftr a:focus, #ftr a:active{text-decoration: underline;}
+#ftr-footer-links-wrapper {margin: 0 20px 0 20px; list-style:none;}
+#ftr-footer-links-wrapper div {float: left; width: 23.85%; border-left: 1px dotted #e5e5e5; text-align:left;}
+#ftr-footer-links-wrapper h4 {padding:0 0 0 10px; margin: 0; font-size:1.2em; line-height:150%; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#ftr-footer-links-wrapper ul {list-style:none; list-style-image:none; list-style-position:outside; list-style-type:none; padding:0 0 0 10px; margin:0;}
+#ftr-footer-links-wrapper li {list-style:none; list-style-image:none; list-style-position:outside; list-style-type:none; padding: 0; margin: 0;}
+.ftr-footer-spacer {clear: both; height: 20px;}
+#ftr-footer-contact-bar { clear: both; background-color: #EEEEEE; padding: 12px 0 12px 0; font-size: 1em; }
+#ftr-footer-contact-bar a {text-decoration: underline; color:#0066cc;}
+#ftr-footer-contact-bar a:hover, #ftr-footer-contact-bar a:focus, #ftr-footer-contact-bar a:active {color: #cc0000; text-decoration: underline;}
+
+
+
+/*Breadcrumb*/
+#breadcrumb {padding:3px 3px 5px 20px; margin: 6px 0px 6px 0; font: 0.9em/150% Verdana,Geneva,Arial,Helvetica,sans-serif normal; color: #000000; background-color: #fff; display:inline-block;}
+#breadcrumb A:link {color: #000000; text-decoration: underline}
+#breadcrumb a:hover, #breadcrumb a:focus, #breadcrumb a:active   {text-decoration:none!important; }
+#breadcrumb A:visited {color: #000000; text-decoration: underline}
+
+
+
+/* Structure*/
+#wrapper{ margin:0 auto; padding:0 14px 0 14px;font-size: 0.75em; background: url(http://dev.nationalarchives.web.local/images/global/body-bg.jpg) top center ; line-height:150%; width:960px;  }
+
+
+#hubWrapper {background: url(images/headerBg.jpg) repeat-x; padding:20px}
+
+
+#header {float: left; clear:both; width:100%; padding:0; 
+background: #8A0752; /* Old browsers */
+background: -moz-linear-gradient(top, #8A0752 0%, #6B0540 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8A0752), color-stop(100%,#6B0540)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #8A0752 0%,#6B0540 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #8A0752 0%,#6B0540 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #8A0752 0%,#6B0540 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8A0752', endColorstr='#6B0540',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #8A0752 0%,#6B0540 100%); /* W3C */}
+#site-title {float:left; font-size:2em; color:#FFF ; padding:10px;}
+#site-title a { text-decoration:none; color:#fff;}
+#search {float:right; padding:0 0 0 0;}
+
+#primary-content{width:66%; float:left; border-right:#BFBFBF dotted 1px; padding:0 0 0 0;}
+#categories {float:left; clear:both;}
+#primary-content  #categoryNavigation {float:left; clear: left; }
+#primary-content  #categoryNavigation li {width:auto;float:left; clear: left;}
+#primary-content  #categoryNavigation h2 {font-size:1.3em;}
+#primary-content  #categoryNavigation a {width:15.4%; float:left; padding:5px 10px; }
+#primary-content  #categoryNavigation a.selected {background-color:#000; color:#FFF;width:15.4%; float:left; padding:5px 10px; }
+#primary-content #categoryTabs {float:right; width:460px; background:#000; margin:0 0 10px 0; padding:0 0 10px 0; }
+#primary-content #categoryTabs ul li {float:left; width:180px; height:220px; margin:10px; background:#FFF; padding:10px;}
+#primary-content #categoryTabs ul .catLink {width:auto; height:auto; border:#FFF solid 2px; padding:0 0 0 0; }
+#primary-content #categoryTabs ul .catLink a {color:#FFF; padding:10px 50px; float:left; text-decoration:none; font-size:1.4em; font-weight:bold;background:#000;}
+#primary-content #categoryTabs ul .catLink a:hover {color:#000; background:#fff;}
+#primary-content #categoryTabs ul li h3 {font-size:1.2em;}
+#primary-content p {padding:6px 0 6px 0;}
+#gallery {margin:0 0 20px 0;}
+#primary-content h2 {padding:10px 0 20px 0; font-size:2em;}
+
+
+#secondary-content {width:220px; float:left; background:#EEEEEE; padding:10px; margin:0 20px 0 20px; }
+#secondary-content h2 {border-top:#000 4px solid; padding:5px 0 0 0;}
+#secondary-content ul {padding:0 0 20px 0;} 
+#secondary-content ul li {padding:10px 0 10px 0; border-bottom:#ccc 1px dotted; display:inline-block;}
+#secondary-content ul li img {float:left; padding:0 10px 0 0;}
+#secondary-content ul li h3 {font-size:1.1em; padding:0 0 0 0!important; margin: 0 0 0 0!important; clear:none; float:none; }
+#secondary-content ul li p {font-size:0.9em; color:#333;}
+#footerInfo {float:left; clear:both; padding:20px 0 20px 0; border-top:#000 4px solid; margin:20px 20px 0 20px; width:920px}
+#help {float:left; width:450px; padding:0 20px 0 0; border-right:#ccc 1px dotted; margin:0 20px 0 0;}
+
+
+/*Ratings*/
+.ratingImages {display:block; clear:both; font-size:0.9em; padding: 6px 0 6px 0; color:#333;}
+#secondary-content ul .ratings .ratingImages img {padding:0 2px 0 0;}
+#secondary-content ul .ratings {padding:10px 0 10px 0; float:left; clear:both; display:inline-block; width:100%;}
+
+
+
+/*banner*/
+
+#banner {margin:0 20px 20px 20px; clear:both; float:left; width:920px; text-align:center; border-bottom:4px solid #efefef;}
+#banner h1 {padding:0 0 10px 0;}
+#banner #player {padding:0 0 10px 0;}
+
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+
+Use the following classes to style your popular posts list as you like.
+*/
+
+/* title styles */
+.wpp-post-title {
+}
+
+/* thumbnail styles */
+img.wpp-thumbnail {
+	border:none;
+	float:left; clear:both;
+}
+
+/* excerpt styles */
+.wpp-excerpt {
+}
+
+/* Stats tag styles */
+.post-stats {
+	font-size:0.9em;
+ color:#333; display:block;
+}
+	
+	.wpp-comments {
+	}
+	
+	.wpp-views {
+	}
+	
+	.wpp-author {
+		font-style:italic;
+	}
+	
+	.wpp-date {
+	}
+
+/* WP-PostRatings styles */
+.wpp-rating {
+}
+
+
+/*Single post page*/
+
+#tags {padding:10px 0 10px 0; clear:both; float:left;}
+#tags ul li {float:left; padding:0 10px 0 0; margin:4px 0 4px 0;} 
+#tags h3 {padding:5px 0 5px 0; }
+#tags ul li a {color:#FFF; background:#000; padding:3px 5px; text-decoration:none;}
+#tags ul li a:hover {color:#000; background:#fff; border:#000 solid 1px; padding:2px 4px; text-decoration:none;}
+
+.download {padding:10px 100px; color:#FFF; background:#000; text-decoration:none; font-size:2em; font-variant:small-caps; line-height:100%; margin:10px 0 10px 0; float:left; clear:both; }
+.download:hover {padding:9px 99px; color:#000!important; background:#fff; border:#000 solid 1px; text-decoration:none; font-size:2em; font-variant:small-caps; line-height:100%; margin:10px 0 10px 0; float:left;  }
+.download:active, .download:visited {color:#FFF;} 
+
+.date {padding:5px 0 5px 0; font-size:0.9em; color:#333;}
+
+.entry-content {padding:5px 0 10px 0; font-size:1.2em; line-height:150%;}
+
+.post-ratings {padding:10px 0 10px 0;}
+
+#category {padding:20px 0 10px 0; clear:both; float:left;}
+#category h3 {padding:0 0 10px 0;}
+#category li {float:left;padding:0 10px 0 0; margin:4px 0 4px 0; font-size:1.2em;}
+#archive {padding:10px 0 10px 0;}
+#archive li {float:left; clear:both!important; margin:0 0 0 0; padding:10px 0; border-bottom:1px solid #000;display:block; width:100%; }
+#primary-content #archive li img {float:left!important; padding:0 20px 0 0; clear:none!important;}
+#primary-content #archive li h3 {font-size:1.5em; display:block; padding:0 0 0 0; margin:0 0 0 0;   }
+#primary-content #archive li p { padding:0 0 0 0; margin:0 0 0 0; }
+#catDescription {font-size:1.3em; border-bottom:1px solid #999; line-height:150%;} 
+
+
+#comments, #comments label, #comment, .form-allowed-tags, #submit{ clear:both; float:left; padding:5px 0 5px 0;}
+#comments {background:#efefef; border:#CCC solid 1px; margin:10px 20px 0 0; padding:10px; width:619px;}
+
+#playerWrapper {margin:0 auto!important; float:none;}
+
+#entry-author-info {background:#efefef; border:#ccc 1px solid; padding:10px; margin:0 0 20px 0; clear:both;}
+#author-avatar {float:left; clear:both;}
+h1.author {padding:0 0 20px 0;}
+#author-avatar-image{float:left; clear:both; padding:10px 10px 0  0;}
+#author-avatar-image img {padding:10px; background:#fff; border:#999 solid 1px;}
+#author-description {padding:6px 15px 0 0; line-height:200%; }
+
+.relevanssi-query-term {background-color: #FF6;}
+
+#feature-wrapper {width:100%; height:440px; overflow:hidden; border:#000 solid 1px; margin:0 0 20px 0;}
+#feature-wrapper #feature li h3 {float:left;color:#000;padding:12px 10px 12px 10px;margin:-140px 0 20px 20px; overflow:hidden;  filter: alpha(opacity=90); -moz-opacity:0.90; opacity:0.90; z-index:1000; position: relative; font-size:1.5em; font-weight:500; width:500px; height:84px; background:#FFF;}
+p.clear{clear:both; padding:0 0 0 0!important; margin:0 0 0 0!important;}
+h2.featuredTitle {padding:0 0 10px 0; font-size:3em;}
+
+.addthis_toolbox {float:left; clear:both; padding:10px 0;}
+#searchform {padding:8px;}
+#searchform #s {float:left; border:none; padding:3px 6px; height:21px; width:25%}
+
+#mediaType {float:left; padding:5px 0 0 25%;}
+#mediaType li {float:left; color:#FFF; font-size:1.4em; padding:10px 0 10px 20px; height:23px; margin:0 0 0 0;}
+#mediaType li.selected {font-weight:bold; background:url(images/selectedHeader.png) bottom no-repeat;}
+
+#tags a {padding:5px; color:#FFF; background:#000; padding:3px 5px; text-decoration:none; line-height:135%;}
+#tags a:hover {color:#000; background:#fff; border:#000 solid 1px; padding:2px 4px; text-decoration:none;}
+#saveLink {font-size:0.9em; color:#666; clear:both;}
+
+
+/* Get rid of the Horizontal scroll bar for Media Query enabled browsers... but don't just use "@media all" – most still understand that. This is really just a aesthetic thing for people on the desktop playing with the size of the viewport. */
+@media all and (min-width: 310px) { html { overflow-x: hidden; } }
+
+
+
+
+/* Target a range that accommodates 800 x 600 */
+@media all and (max-width: 990px) and (min-width: 820px) {
+    #wrapper { width: 960px; }
+}
+
+/* Target a range that accommodates 768 – portrait iPad */
+@media all and (max-width: 819px) and (min-width: 766px) {
+    #wrapper { width: 750px; }
+	#primary-content {width:100%;}
+}
+
+/* Target a range that accomodates 600  */
+@media all and (max-width: 765px) and (min-width: 600px) {
+    #wrapper {
+        width: 600px;
+        box-shadow: none; /* remove the drop shadow */
+		
+    }
+	#primary-content {width:100%;}
+}
+
+/* Now for anything smaller... remove all widths and floats and let things stack up. This covers iPhones either in portrait or landscape mode. */
+@media all and (max-width: 599px) {
+    #wrapper {
+        width: auto;
+        box-shadow: none;
+    }
+	#primary-content {width:100%;}
+	#hdr-personalisation, #hdr-searchform-holder  {display:none;}
+	
+}
+
+
