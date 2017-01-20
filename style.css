@@ -131,7 +131,7 @@ html>body #hdr-searchform-holder #search_text {*margin:-1px 0 0 0}
 /* Structure*/
 #wrapper{ margin:0 auto; padding:0 14px 0 14px;font-size: 0.75em; background: url(http://www.nationalarchives.gov.uk//images/global/body-bg.jpg) top center ; line-height:150%; width:960px;  }
 
-#hubWrapper {padding:0 2.2% 2.2% 2.2%;background:#494949 url(images/headerBg.jpg) repeat-x; width:95.6%; margin:0 0 0 0; border:none; overflow:hidden;}
+#hubWrapper {padding:0 2.2% 2.2% 2.2%;background:#494949 url(images/headerBg.jpg) repeat-x; margin:0 0 0 0; border:none; overflow:hidden;}
 
 .breadcrumbs {padding:1.6% 0; color:#FFF; max-width: 400px;}.breadcrumbs a {color:#FFF;}
 
