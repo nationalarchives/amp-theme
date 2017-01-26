@@ -166,7 +166,7 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
                     <!-- first world war portal sign up -->
                     <input type="hidden" name="userid" value="173459">
                     <input type="hidden" name="ReturnURL"
-                           value="http://nationalarchives.gov.uk/news/subscribe-confirmation.htm">
+                           value="http://www.nationalarchives.gov.uk/about/get-involved/newsletters/the-national-archives-newsletter/thank-you/">
                     <label for="Email">Send me The National Archives’ newsletter</label>
                     <input type="email" name="Email" id="Email" required="required"
                            placeholder="Enter your email address">
