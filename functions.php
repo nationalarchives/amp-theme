@@ -600,3 +600,20 @@ function add_featured_image_to_rss() {
 add_action( 'rss2_item', 'add_featured_image_to_rss' );
 
 /* end add the featured image as an enclosure to the rss feed */
+
+
+function survey_banner() {
+	?>
+	<div class="notification-banner">
+		<div class="container">
+			<div class="row">
+				<div class="notice">
+					<strong class="title">SURVEY</strong>
+					Feedback on our media player - please fill in this
+					<a href="http://www.smartsurvey.co.uk/s/FFCFX/" target="_blank">survey</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php
+}

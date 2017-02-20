@@ -904,3 +904,14 @@ div.search-refinements {
 #footer-wrapper {
 	margin:0;
 }
+
+.notification-banner {
+	background-color: #fce45c;
+	padding: 1em;
+}
+.notification-banner .title {
+	background-color: #fff;
+	text-transform: uppercase;
+	padding: 0 .4em;
+	margin-right: 1em;
+}
