@@ -609,8 +609,8 @@ function survey_banner() {
 			<div class="row">
 				<div class="notice">
 					<strong class="title">SURVEY</strong>
-					Please take our survey
-					<a href="http://www.smartsurvey.co.uk/s/FFCFX/" target="_blank">here</a>
+					Feedback on our media player - please fill in this
+					<a href="http://www.smartsurvey.co.uk/s/FFCFX/" target="_blank">survey</a>
 				</div>
 			</div>
 		</div>
