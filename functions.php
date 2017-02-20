@@ -600,3 +600,19 @@ function add_featured_image_to_rss() {
 add_action( 'rss2_item', 'add_featured_image_to_rss' );
 
 /* end add the featured image as an enclosure to the rss feed */
+
+
+function survey_banner() {
+	?>
+	<div class="notification-banner">
+		<div class="container">
+			<div class="row">
+				<div class="notice">
+					<strong class="title">SURVEY</strong>
+					Please take our survey <a href="#">here</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<?php
+}
