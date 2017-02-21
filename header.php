@@ -62,9 +62,14 @@
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/jquery.carouFredSel-4.1.0-packed.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/jquery.colorbox-min.js"></script>
 <script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/hub-behaviour.js"></script>
-<script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/jwplayer.js"></script>
+<script language="javascript" type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/jwplayer.js?v7"></script>
+<script>jwplayer.key="QXMXbKME8X1tWpCl1xbScn2D5vVQjSDcHSMHZLVk7X8=";</script>
 
-
+<style>
+.jwplayer {
+	margin:auto!important;
+}
+</style>
 
 </head>
 
