@@ -204,14 +204,12 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
     </div>
     <div class="footer-left">
                     <h4>Site help</h4>
-        <ul>
+          <ul>
             <li><a href="http://www.nationalarchives.gov.uk/help/">Help</a></li>
-            <li><a href="http://www.nationalarchives.gov.uk/help/faqs.htm">FAQs</a></li>
-            <li><a href="http://www.nationalarchives.gov.uk/help/atoz.htm">Website A-Z index</a></li>
-            <li><a href="http://www.nationalarchives.gov.uk/help/accessibility.htm">Accessibility</a></li>
-            <li><a href="http://www.nationalarchives.gov.uk/help/sitemap.htm">Site map</a></li>
-        </ul>
-     </div>
+            <li><a href="http://www.nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
+            <li><a href="http://www.nationalarchives.gov.uk/help/web-accessibility/">Accessibility</a></li>
+          </ul>
+      </div>
 
         </div>
        
