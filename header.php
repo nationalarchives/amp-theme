@@ -93,7 +93,6 @@
 
 
 <div id="wrapper" class="hfeed">
-<?php echo survey_banner() ?>
 <?php include("includes/logosearchcms.php"); ?>
 <?php include("includes/menu.php"); ?>
 
