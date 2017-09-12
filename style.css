@@ -916,6 +916,9 @@ div.search-refinements {
 	margin-right: 1em;
 }
 
+#footer-wrapper  .follow-us {
+	padding-top:20px;
+}
 #footer-wrapper  .follow-us a {
 	display: inline-block; }
 #footer-wrapper  .follow-us a img {

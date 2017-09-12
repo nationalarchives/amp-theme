@@ -21,8 +21,8 @@
 ?>
 
 <div id="footerInfo">
-<!--<div id="help"><h2><?php /*the_field ('title_right', 'options'); */?></h2><?php /*the_field ('content_right', 'options'); */?></div>
-<div id="subscribe"><h2><?php /*the_field ('title_left', 'options'); */?></h2><?php /*the_field ('content_left', 'options'); */?></div>-->
+<div id="help"><h2><?php the_field ('title_right', 'options'); ?></h2><?php the_field ('content_right', 'options'); ?></div>
+<div id="subscribe"><h2><?php the_field ('title_left', 'options'); ?></h2><?php the_field ('content_left', 'options'); ?></div>
 </div>
 
 
