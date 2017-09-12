@@ -32,7 +32,8 @@ background: /*url("http://www.nationalarchives.gov.uk/images/global/footer-backg
     font-family: 'Bitter', serif;
     font-weight: 400;
     font-size: 1.2em;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    display:inline-block;
     color: #fff;
 }
 
