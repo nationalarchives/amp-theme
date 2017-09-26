@@ -234,7 +234,7 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
                             </div>
                         </div>
                     </div>
-                    <a href="/about/visit-us/opening-times/">Full opening times</a>
+                    <a href="http://www.nationalarchives.gov.uk/about/visit-us/opening-times/">Full opening times</a>
                 </div>
             </div>
 
@@ -242,18 +242,18 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
                 <div class="footer-left">
                     <h4>Find out more</h4>
                     <ul>
-                        <li><a href="/contact-us/">Contact us</a></li>
-                        <li><a href="/about/press-room/">Press room</a></li>
-                        <li><a href="/about/jobs/">Jobs and careers</a></li>
-                        <li><a href="/about/get-involved/friends-of-the-national-archives/">Friends of The National Archives</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/contact-us/">Contact us</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/about/press-room/">Press room</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/about/jobs/">Jobs and careers</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/about/get-involved/friends-of-the-national-archives/">Friends of The National Archives</a></li>
                     </ul>
                 </div>
                 <div class="footer-left">
                     <h4>Site help</h4>
                     <ul>
-                        <li><a href="/help/">Help</a></li>
-                        <li><a href="/help/a-to-z/">Website A-Z index</a></li>
-                        <li><a href="/help/web-accessibility/">Accessibility</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/help/">Help</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/help/a-to-z/">Website A-Z index</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/help/web-accessibility/">Accessibility</a></li>
                     </ul>
                 </div>
             </div>
@@ -266,7 +266,7 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
                         <li><a href="http://media.nationalarchives.gov.uk/">Podcasts and videos</a></li>
                         <li><a href="http://bookshop.nationalarchives.gov.uk/">Bookshop</a></li>
                         <li><a href="https://images.nationalarchives.gov.uk/">Image library</a></li>
-                        <li><a href="/webarchive/">UK Government Web Archive</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/webarchive/">UK Government Web Archive</a></li>
                         <li><a href="http://www.legislation.gov.uk/" target="_blank" rel="noopener noreferrer">Legislation.gov.uk</a></li>
                         <li><a href="https://www.thegazette.co.uk/" target="_blank" rel="noopener noreferrer">The Gazette</a></li>
                     </ul>
@@ -274,12 +274,12 @@ if (!has_category('hide-newsletter', $post->ID)) : ?>
                 <div class="footer-left">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="/legal/">Terms of use</a></li>
-                        <li><a href="/legal/privacy.htm">Privacy policy</a></li>
-                        <li><a href="/legal/cookies.htm">Cookies</a></li>
-                        <li><a href="/about/freedom-of-information/">Freedom of Information</a></li>
-                        <li><a href="/about/our-role/transparency/">Transparency</a></li>
-                        <li><a href="/legal/our-fees.htm">Our fees</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/legal/">Terms of use</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/legal/privacy.htm">Privacy policy</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/legal/cookies.htm">Cookies</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/about/freedom-of-information/">Freedom of Information</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/about/our-role/transparency/">Transparency</a></li>
+                        <li><a href="http://www.nationalarchives.gov.uk/legal/our-fees.htm">Our fees</a></li>
                     </ul>
                 </div>
             </div>
