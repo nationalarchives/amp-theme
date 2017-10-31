@@ -372,7 +372,7 @@ else $extra_class = 'odd'; ?>
 
     <!-- <li id="africa"><a href="http://www.nationalarchives.gov.uk/australasia/"><img src="<?php bloginfo('template_directory'); ?>/images/miniSeries/australasia.jpg" /></a><p>Podcasts on the thousands of images taken from the Foreign and Commonwealth Office, held at The National Archives.</p><h3><a href="http://www.nationalarchives.gov.uk/australasia/">Australasia through a lens</a></h3></li> -->
 
-    <li id="voices"><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/arts-and-inspiration-day/"><img src="<?php bloginfo('template_directory'); ?>/images/miniSeries/arts-and-inspiration-day.jpg" /></a><p>Arts and Inspiration Day is a free event for students considering PhD study which introduces the research potential of our collection.</p><h3><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/arts-and-inspiration-day/">Arts and Inspiration Day</a></h3></li>
+    <li id="voices"><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/loyalty-and-dissent/"><img src="<?php bloginfo('template_directory'); ?>/images/miniSeries/south-asian-soldiers.jpg" /></a><p>Five short audio recordings of plays about the First World War from the perspective of people from South Asia.</p><h3><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/loyalty-and-dissent/">South Asian Soldiers in the First World War</a></h3></li>
 
     <li id="big-ideas"><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/big-idea/"><img src="<?php bloginfo('template_directory'); ?>/images/miniSeries/big-ideas-inf-3-1065.jpg" /></a><p>Our series of monthly talks on the big ideas coming out of The National Archives' research programme.</p><h3><a href="<?php bloginfo( 'url' ); ?>/index.php/tag/big-idea/">Big Ideas</a></h3></li> 
 
